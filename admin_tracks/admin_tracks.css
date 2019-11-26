@@ -1,0 +1,23 @@
+.list_header_num {
+    width: 10%;
+}
+
+.list_header_name {
+    width: 25%;
+}
+
+.list_header_artists {
+    width: 20%;
+}
+
+.list_header_albums {
+    width: 20%;
+}
+
+.list_header_genres {
+    width: 15%;
+}
+
+.list_header_btn {
+    width: 10%;
+}
