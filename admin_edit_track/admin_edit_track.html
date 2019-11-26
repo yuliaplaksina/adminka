@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="../css/main.css">
+    <link type="text/css" rel="stylesheet" href="../css/edit.css">
+    <link type="text/css" rel="stylesheet" href="admin_edit_track.css">
+</head>
+<body>
+<div class="grid-container">
+    <div class="nav">
+        <div class="nav_menu">
+            <a href="../admin_genres/admin_genres.html">
+                <div class="nav_menu_item nav_menu_home">
+                    <img alt="home-icon" src="../img/home.png">
+                </div>
+            </a>
+            <a href="../admin_genres/admin_genres.html">
+                <div class="nav_menu_item nav_menu_account">
+                    <img alt="account-icon" src="../img/account.png">
+                </div>
+            </a>
+            <a href="../admin_genres/admin_genres.html">
+                <div class="nav_menu_item nav_menu_exit">
+                    <img alt="exit-icon" src="../img/exit.png">
+                </div>
+            </a>
+        </div>
+        <div class="nav_list">
+            <a href="../admin_genres/admin_genres.html">
+                <div>
+                    Genres
+                </div>
+            </a>
+            <a href="../admin_artists/admin_artists.html">
+                <div>
+                    Artists
+                </div>
+            </a>
+            <a href="../admin_albums/admin_albums.html">
+                <div>
+                    Albums
+                </div>
+            </a>
+            <div class="a_hover">
+                Tracks
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <h3 class="header_h3">Edit track</h3>
+    </div>
+    <div class="content">
+        <form id="track" class="edit" enctype="multipart/form-data" method="post">
+            <label>
+                Name
+                <input class="edit_input" type="text" name="name">
+            </label>
+            <label>
+                Artist
+                <input class="edit_input" type="text" name="artists">
+            </label>
+            <label>
+                Album
+                <input class="edit_input" type="text" name="albums">
+            </label>
+
+            <label>
+                Genres
+                <select class="edit_input" name="genre">
+                    <option>Rock</option>
+                    <option>Indi</option>
+                    <option>Jazz</option>
+                    <option>Pop</option>
+                </select>
+            </label>
+            <label>
+                Upload file with track:
+                <input class="upload_file" type="file" name="file">
+            </label>
+        </form>
+        <button class="btn btn_save" form="track" formaction="../admin_tracks/admin_tracks.html">Save</button>
+        <a href="../admin_tracks/admin_tracks.html">
+            <div class="btn btn_cancel">
+                Cancel
+            </div>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+.list_header_num {
+    width: 10%;
+}
+
+.list_header_name {
+    width: 70%;
+}
+
+.list_header_btn {
+    width: 20%;
+}
+
+.list_input {
+    width: 60%;
+    height: 70%;
+    font-size: 20px;
+    padding-left: 10px;
+}

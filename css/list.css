@@ -1,0 +1,72 @@
+
+.btn_add {
+    color: #FFFFFF;
+    width: 170px;
+    height: 35px;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 21px;
+    background: #242639;
+    border-radius: 15px;
+    transition: 0.2s;
+    padding-top: 6px;
+}
+.btn_add:hover { transform: scale(1.05) }
+.btn_add:active {
+    background: #0F0F1F;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 60px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    background: #F5F5F5;
+    padding: 8px;
+}
+
+td {
+    height: 50px;
+    text-align: left;
+    font-size: 20px;
+    background: #FFFFFF;
+    border-top: 1px solid #E5E8EC;
+    padding: 8px;
+}
+
+tr:hover td {background: #ccddff;}
+
+table td:last-child {
+    text-align: right;
+}
+table td:first-child {
+    text-align: center;
+}
+
+table th:first-child {
+    text-align: center;
+}
+.btn_row {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #E5E8EC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.btn_row:hover {
+    transform: scale(1.1);
+}
+
+.btn_row > img {
+    width: 100%;
+}
